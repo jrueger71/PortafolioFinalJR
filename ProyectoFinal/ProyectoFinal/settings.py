@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'contactaapp',
     'blogapp',
     'authapp',
+    'expenseapp',
+    'errorapp',
 ]
 
 MIDDLEWARE = [
@@ -125,6 +127,7 @@ STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
+    BASE_DIR / 'homeapp/static/',
 ]
 
 # Configuración para archivos multimedia (imágenes de perfil)
